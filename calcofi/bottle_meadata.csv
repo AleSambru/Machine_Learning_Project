@@ -1,0 +1,74 @@
+﻿Column Header,Units,Description,Cat
+Cst_Cnt,n.a.,Auto-numbered Cast Count - all casts consecutively numbered. 1 is first station done,id
+Btl_Cnt,n.a,"Auto-numbered Bottle count- all bottles ever sampled, consecutively numbered",id
+Sta_ID,Text,CalCOFI Line and Station,id
+Depth_ID,n.a.,[Century]-[YY][MM][ShipCode]-[CastType][Julian Day]-[CastTime]-[Line][Sta][Depth][Bottle]-[Rec_Ind],id
+Depthm,meters,Depth in meters,chifis
+T_degC,Degrees C,Temperature of Water,chifis
+Salnty,"Practical Salinity Scale, 1978 (UNESCO, 1981a)",Salinity of water,chifis
+O2ml_L,Oxygen in mL/L,Milliliters of dissolved oxygen per Liter seawater,chifis
+STheta,n.a.,Potential Density of Water,chifis
+O2Sat,Percent Saturation,Oxygen Saturation,chifis
+Oxy_umol/kg,µmol/Kg ,Oxygen in micro moles per kilogram of seawater,chifis
+BtlNum,n.a.,Bottle Number,id
+Reclnd,n.a.,Record Indicator,id
+T_prec,n.a.,Temperature Units of Precision,precision
+T_qual,n.a.,Temperature Quality Code,quality
+S_prec,n.a,Salinity Units of Precision,precision
+S_qual,n.a,Salinity Quality Code,quality
+P_qual,n.a.,Pressure Quality Code,quality
+O_qual,n.a.,Oxygen Quality Code,quality
+SThatq,n.a.,Sigma Theta Quality Code,quality
+O2Satq,n.a.,Oxygen Saturation Quality Code,quality
+ChlorA,µg/L,Acetone extracted chlorophyll-a measured fluorometrically,chifis
+Chlqua,n.a.,Chlorophyll-a Quality Code,quality
+Phaeop,µg/L,Phaeophytin concentration measured fluorometrically,chifis
+Phaqua,n.a.,Phaeophytin Quality Code,quality
+PO4uM,micro Moles per Liter,Phosphate concentration,chifis
+PO4q,n.a.,Phosphate Quality Code,quality
+SiO3uM,micro Moles per Liter,Silicate concentration,chifis
+SiO3qu,n.a.,Silicate Quality Code,quality
+NO2uM,micro Moles per Liter,Nitrite concentration,chifis
+NO2q,n.a.,Nitrite Quality Code,quality
+NO3uM,micro Moles per Liter,Nitrate concentration,chifis
+NO3q,n.a.,Nitrate Quality Code,quality
+NH3uM,micro Moles per Liter,Ammonium concentration,chifis
+NH3q,n.a.,Ammonium Quality Code,quality
+C14As1,milligrams Carbon per cubic meter per half light day,14C Assimilation of replicate 1,chifis
+C14A1p,n.a.,14C Assimilation of replicate 1 precision,precision
+C14A1q,n.a.,14C As1 Quality Code,quality
+C14As2,n.a.,14C Assimilation of replicate 2,chifis
+C14A2p,n.a.,14C Assimilation of replicate 2 precision,precision
+C14A2q,n.a.,14C As2 Quality Code,quality
+DarkAs,milligrams Carbon per cubic meter per half light day,14C Assimilation Dark Bottle,chifis
+DarkAp,n.a.,14C Assimilation Dark Bottle precision,precision
+DarkAq,n.a.,14C Assimilation Dark Bottle Quality Code,quality
+MeanAs,milligrams Carbon per cubic meter per half light day,Mean 14C Assimilation of Bottle 1 and 2,chifis
+MeanAp,n.a.,Mean 14C Assimilation of Bottle 1 and 2 precision,precision
+MeanAq,n.a.,Mean 14C Assimilation Quality Code,quality
+IncTim,n.a.,Incubation time,chifis
+LightP,percent,Light intensities expressed as a percentage,chifis
+R_Depth,Meters,Reported Depth in Meters,chifis
+R_TEMP,Deg C,Reported Temperature,chifis
+R_POTEMP,Deg C,Reported Potential Temperature,chifis
+R_SALINITY,"Practical Salinity Scale, 1978 (UNESCO, 1981a)",Reported Salinity,chifis
+R_SIGMA,n.a.,Reported Potential Density of water,chifis
+R_SVA,n.a.,Reported Specific Volume Anomaly,chifis
+R_DYNHT,Dynamic Meters,Reported Dynamic Height,chifis
+R_O2,Oxygen in mL/L,Reported milliliters of oxygen per liter of seawater,chifis
+R_O2Sat,Percent,Reported Oxygen Saturation,chifis
+R_SIO3,micro Moles per Liter,Reported Silicate Concentration,chifis
+R_PO4,micro Moles per Liter,Reported Phosphate Concentration,chifis
+R_NO3,micro Moles per Liter,Reported Nitrate Concentration,chifis
+R_NO2,micro Moles per Liter,Reported Nitrite Concentration,chifis
+R_NH4,micro Moles per Liter,Reported Ammonium Concentration,chifis
+R_CHLA,micrograms per Liter,Reported Chlorophyll-a,chifis
+R_PHAEO,micrograms per Liter,Reported Phaeophytin,chifis
+R_PRES,decibars,Pressure in decibars,chifis
+R_SAMP,n.a.,Sample number,id
+R_Oxy_umol/kg,µmol/Kg ,Reported Oxygen in micro moles per kilogram of seawater,chifis
+DIC1,umol/Kg,Replicate 1 - Dissolved Inorganic Carbon in micro moles per kilogram of seawater,chifis
+DIC2,umol/Kg,Replicate 2 - Dissolved Inorganic Carbon in micro moles per kilogram of seawater,chifis
+TA1,umol/Kg,Replicate 1 - Total Alkalinity in micro moles per kilogram of seawater,chifis
+TA2,umol/Kg,Replicate 2 - Total Alkalinity in micro moles per kilogram of seawater,chifis
+DIC Quality (Comments),n.a.,"Quality Comments associated with DIC sampling, drawing and analysis",quality
