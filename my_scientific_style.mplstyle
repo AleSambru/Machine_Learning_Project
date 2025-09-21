@@ -1,0 +1,26 @@
+axes.linewidth: 2
+legend.frameon: False
+grid.linestyle:
+
+xtick.major.width: 2
+ytick.major.width: 2
+xtick.major.size: 10
+ytick.major.size: 10
+
+xtick.minor.width: 1.5
+ytick.minor.width: 1.5
+xtick.minor.size: 6
+ytick.minor.size: 6
+
+xtick.top: True
+xtick.bottom: True
+ytick.left: True
+ytick.right: True
+
+xtick.direction: in
+ytick.direction: in
+
+font.size: 18
+axes.labelsize: 18
+
+
