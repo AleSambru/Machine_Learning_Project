@@ -1,0 +1,63 @@
+Field Name,Units,Description,cat
+Cst_Cnt,n.a.,"Cast Count - All CalCOFI casts ever conducted, consecutively numbered",id
+Btl_Cnt,n.a.,"Bottle Count - All CalCOFI bottles ever sampled, consecutively numbered",id
+Sta_ID,n.a.,Line and Station [Line] [Station],id
+Depth_ID,n.a.,Uses the Cast_ID prefix ([Century]-[Year][Month][ShipCode]-[CastType][Julian Day]-[CastTime]-[Line][Sta]) but adds three additional variables: [Depth][Bottle]-[Rec_Ind],id
+Depthm,meters,Bottle depth in meters,chifis
+T_degC,degrees Celsius,Water temperature in degrees Celsius,chifis
+Salnty,Practical Salinity Scale,Salinity (Practical Salinity Scale 1978),chifis
+O2ml_L,milliliters per liter,Milliliters oxygen per liter of seawater,chifis
+STheta,kilograms per cubic meter,"Potential Density (Sigma Theta), Kg/M³",chifis
+O2Sat,percent saturation,Oxygen percent saturation,chifis
+Oxy_µmol/Kg,micromoles per kilogram,Oxygen micromoles per kilogram seawater,chifis
+BtlNum,n.a.,Niskin bottle sample was collected from,id
+RecInd,n.a.,"Record Indicator (quality code that applies to the whole bottle, instead of just to a specific parameter)",quality
+T_prec,n.a.,Temperature Precision,precision
+T_qual,n.a.,Quality Code,quality
+S_prec,n.a.,Salinity Precision,precision
+S_qual,n.a.,Quality Code,quality
+P_qual,n.a.,Quality Code,quality
+O_qual,n.a.,Quality Code,quality
+SThtaq,n.a.,Quality Code,quality
+O2Satq,n.a.,Quality Code,quality
+ChlorA,micrograms per liter,"Migrograms Chlorophyll-a per liter seawater, measured fluorometrically",chifis
+Chlqua,n.a.,Quality Code,quality
+Phaeop,micrograms per liter,"Micrograms Phaeopigment per liter seawater, measured fluormetrically",chifis
+Phaqua,n.a.,Quality Code,quality
+PO4uM,micromoles per liter,Micromoles Phosphate per liter of seawater,chifis
+PO4q,n.a.,Quality Code,quality
+SiO3uM,micromoles per liter,Micromoles Silicate per liter of seawater,chifis
+SiO3qu,n.a.,Quality Code,quality
+NO2uM,micromoles per liter,Micromoles Nitrite per liter of seawater,chifis
+NO2q,n.a.,Quality Code,quality
+NO3uM,micromoles per liter,Micromoles Nitrate per liter of seawater,chifis
+NO3q,n.a.,Quality Code,quality
+NH3uM,micromoles per liter,Micromoles Ammonia per liter of seawater,chifis
+NH3q,n.a.,Quality Code,quality
+C14As1,milligrams C per cubic meter per half light day,14C Assimilation of Replicate 1 (milligrams carbon per cubic meter of seawater per half light day),chifis
+C14A1p,n.a.,Precision of 14C Assimilation of Replicate 1,precision
+C14A1q,n.a.,Quality Code,quality
+C14As2,milligrams C per cubic meter per half light day,14C Assimilation of Replicate 2 (milligrams carbon per cubic meter of seawater per half light day),chifis
+C14A2p,n.a.,Precision of 14C Assimilation of Replicate 2,precision
+C14A2q,n.a.,Quality Code,quality
+DarkAs,milligrams C per cubic meter per half light day,14C Assimilation of Dark/Control Bottle (milligrams carbon per cubic meter of seawater per half light day),chifis
+DarkAp,n.a.,Precision of 14C Assimilationof Dark/Control Bottle,precision
+Darkaq,n.a.,Quality Code,quality
+MeanAs,milligrams C per cubic meter per half light day,Mean 14C Assimilation of Replicates 1 and 2 (milligrams carbon per cubic meter of seawater per half light day),chifis
+MeanAp,n.a.,Precision of Mean 14C Assimilation of Replicates 1 and 2,precision
+MeanAq,n.a.,Quality Code,quality
+IncTim,time,Elapsed incubation time of the primary productivity experiment,chifis
+LightP,percent,"Light intensities of the incubation tubes in the primary productivity experiment, expressed as percentages",chifis
+R_Depth,meters,Reported Depth (from pressure) in meters,chifis
+R_Temp,degrees Celsius,Reported (Potential) Temperature in degrees Celsius,chifis
+R_Sal,Practical Salinity Scale,"Reported Salinity (from Specific Volume Anomoly, M³/Kg)",chifis
+R_DYNHT,dynamic meters,Reported Dynamic Height in units of dynamic meters (work per unit mass),chifis
+R_Nuts,micromoles per liter,Reported Ammonium concentration,chifis
+R_Oxy_µmol/Kg,micromoles per kilogram,Reported Oxygen micromoles/kilogram,chifis
+DIC1,micromoles per kilogram,Dissolved Inorganic Carbon micromoles per kilogram solution,chifis
+DIC2,micromoles per kilogram,Dissolved Inorganic Carbon micromoles per kilogram solution (on a replicate sample),chifis
+TA1,micromoles per kilogram,Total Alkalinity micromoles per kilogram solution,chifis
+TA2,micromoles per kilogram,Total Alkalinity micromoles per kilogram solution (on a replicate sample),chifis
+pH1,pH scale,pH (the degree of acidity/alkalinity of a solution),chifis
+pH2,pH scale,pH (the degree of acidity/alkalinity of a solution) on a replicate sample,chifis
+DIC Quality Comment,n.a.,Quality Comment,quality
