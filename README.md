@@ -24,4 +24,8 @@ Further information about the dataset can be found on the [official CalCOFI webs
   Preliminary analysis and data filtering.  
 
 - **ML_ASambruna_Project/**  
-  Complete analysis of the project.  
+  Complete analysis of the project.
+
+
+This project may contain mistakes or inaccuracies. Please report any issues. Before running the code, make sure to download the datasets in calcofi, and then execute the Analisi_Dataset
+notebook first.
